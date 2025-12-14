@@ -1,0 +1,59 @@
+# --------------------
+# Python cache
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual environments
+# --------------------
+venv/
+.env/
+.venv/
+
+# --------------------
+# Jupyter Notebook
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Data files (raw / large)
+# --------------------
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+data/
+
+# --------------------
+# Model artifacts
+# --------------------
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# --------------------
+# Logs & outputs
+# --------------------
+logs/
+*.log
+outputs/
+results/
+
+# --------------------
+# OS / Editor files
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Misc
+# --------------------
+*.zip
+*.tar
